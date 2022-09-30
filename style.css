@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+
+  
+  margin: 0 auto;
+}
+
+.descont {
+  background-color: #181818;
+  height: 6.0rem;
+  display: flex;
+  align-items: center;
+}
+
+.descont p {
+  color:#F9F9F9;
+  margin: 0 auto;
+}
+
+.title {
+  background-color:#F9F9F9;
+  height: 6.0rem;
+  display: flex;
+  align-items: center;
+}
+
+.title h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #181818;
+  margin: 0 auto;
+  padding-bottom: 1.2rem;
+}
+
+.blackContainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("assets/cover_mobile.jpg");
+  background-size: 100% 100%;
+  object-fit: contain;
+  
+  height: 37.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  color: #F9F9F9;;
+}
+
+.text-cover {
+  margin-left: 2.0rem;
+  margin-right: 3.7rem;
+}
+
+.blackContainer h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 34px
+}
+
+.blackContainer p {
+  font-weight: normal;
+  line-height: 180%;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 41.4rem;
+  margin: 0 auto;
+}
+
+main h1 {
+  margin: 5.0rem 0 .5rem;
+
+  font-size: 2.8rem;
+  line-height: 196.19%;
+  
+}
+
+main p {
+  margin: 0 2.0rem 6.0rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+
+  text-align: center;
+}
+
+.box {
+  background-color: #EBE9EA;;
+  width: 37.4rem;
+  height: 30.2rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: .5rem;
+  
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3.0rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.list2 {
+  margin-top: 3.0rem;
+}
+
+footer {
+  display: flex;
+  background: #181818;
+  height: 6.0rem;
+  align-items: center;
+
+  margin-top: 6.0rem;
+
+}
+
+footer p {
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #F9F9F9;
+  
+  margin: 13px auto 13px;
+}
+
+
+@media (min-width: 700px) {
+  .blackContainer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("assets/cover.jpg");
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  main h1 {
+    font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 196.19%;
+  }
+
+  main p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 196.19%;
+  }
+
+  .text-cover {
+    margin-left: 10.0rem;
+    width: 40.0rem;
+
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+  }
+
+  .text-cover2 {
+    margin-top: 2.0rem;
+    width: 46.0rem;
+
+    font-size: 1.8rem;
+  }
+
+  ul {
+    flex-direction: row;
+    gap: 1.3rem;
+  }
+
+  .list2 {
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+  }
+}
